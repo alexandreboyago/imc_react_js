@@ -7,7 +7,6 @@ type Props = {
     item: Level
 }
 
-
 export const GridItem = ({item} : Props) => {
     return(
         <div className={styles.main} style={{backgroundColor: item.color}}>
